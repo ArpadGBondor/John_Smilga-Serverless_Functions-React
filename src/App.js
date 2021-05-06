@@ -1,5 +1,13 @@
+import Basic from './Basic.js';
+import Airtable from './Airtable.js';
+
 function App() {
-  return <h2>React and Serverless Functions</h2>
+  return (
+    <>
+      <Basic />
+      <Airtable />
+    </>
+  );
 }
 
-export default App
+export default App;
